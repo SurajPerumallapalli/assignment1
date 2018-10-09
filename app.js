@@ -15,7 +15,6 @@
         //not graded
         for(var x = 0; x<listOfItems.length; x++){
           var brokenToken = listOfItems[x].trim();
-          console.log(brokenToken);
           if(brokenToken == '')
             sizeOfListOfItems--;
         }
@@ -23,7 +22,7 @@
         if(sizeOfListOfItems == 0)
         $scope.displayMessage = "Please enter data first";
         else if(sizeOfListOfItems <= 3)
-        $scope.displayMessage = "Enjoy! ";
+        $scope.displayMessage = "Enjoy!";
         else
         $scope.displayMessage = "Too much!";
       }
