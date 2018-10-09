@@ -23,9 +23,9 @@
         if(sizeOfListOfItems == 0)
         $scope.displayMessage = "Please enter data first";
         else if(sizeOfListOfItems <= 3)
-        $scope.displayMessage = "Enjoy! " + sizeOfListOfItems;
+        $scope.displayMessage = "Enjoy! ";
         else
-        $scope.displayMessage = "Too much!" + sizeOfListOfItems;
+        $scope.displayMessage = "Too much!";
       }
     };
 
